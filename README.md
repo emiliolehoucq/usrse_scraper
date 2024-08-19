@@ -1,2 +1,1 @@
-# usrse_scraper
-Repo to scrape US-RSE job board
+Repo to host the code to regularly scrape the [US-RSE job board](https://us-rse.org/jobs/) as part of a project for [Research Computing and Data Services at Northwestern University](https://www.it.northwestern.edu/departments/it-services-support/research/) and send the data to Google Drive.
