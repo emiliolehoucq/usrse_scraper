@@ -203,7 +203,7 @@ for job_list in job_lists:
                     logger.info("Populated remote, flexible, and hybrid")
                     
                     # Source code
-                    source_code = get_selenium_response(url_job_post, verbose=False, headless=True)
+                    source_code = get_selenium_response(url_job_post, headless=True)
                     logger.info("Got source code")
                     job_data.append(source_code)
                     logger.info("Populated source code")
