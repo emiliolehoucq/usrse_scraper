@@ -3,3 +3,4 @@ beautifulsoup4==4.12.2
 google-api-python-client==2.140.0
 google-auth==2.33.0
 selenium==4.16.0
+packaging==25.0
