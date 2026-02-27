@@ -96,8 +96,8 @@ logger.info("Parsed US-RSE job board data")
 content = soup.find_all('ol')
 logger.info("Found US-RSE job board data")
 
-# Get only the first two ordered lists, which are the job listings
-job_lists = content[:2]
+# Get only the first three ordered lists, which are the job listings
+job_lists = content[:3]
 logger.info("Successfully got US-RSE job board data")
 
 ####################################### GET URLS THAT I ALREADY SCRAPED #######################################
@@ -136,7 +136,7 @@ data = []
 # Extract data for each job listing
 # Iterating over the two ordered lists (current RSE openings and related openings)
 for job_list in job_lists:
-    logger.info("Iterating over the two ordered lists")
+    logger.info("Iterating over the three ordered lists")
     # Finding each of the items in the list (each job posting)
     job_postings = job_list.find_all('li')
     logger.info("Found each of the items in the list")
